@@ -15,8 +15,6 @@ body {
 }
 
 #nav {
-    position: fixed;
-    
     .bg-nav {
         background-color: $light-brown;
     }
@@ -43,6 +41,8 @@ body {
     }
 
     @media (min-width: 992px) {
+        position: fixed;
+
         .bg-nav {
             background-color: transparent;
         }

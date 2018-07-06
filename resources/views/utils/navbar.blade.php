@@ -1,4 +1,4 @@
-<section id="nav">
+<section id="nav" class="w-100">
     <div class="container-fluid bg-nav">
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">

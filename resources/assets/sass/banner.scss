@@ -1,0 +1,21 @@
+@import 'variables';
+
+#banner {
+    overflow: hidden;
+    color: $black;
+
+    .bg {
+        background-image: url('/imgs/bg.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 90vh;
+    }
+
+    @media (min-width: 992px) {
+        .bg {
+            background-image: url('/imgs/bg.svg');
+            height: 100vh;
+        }
+    }
+}
