@@ -1,0 +1,41 @@
+@import 'variables';
+
+body {
+    background-color: $black;
+    color: $light-yellow;
+    font-family: 'Muli', 'Prompt', sans-serif;
+}
+
+#nav {
+    .bg-nav {
+        background-color: $light-brown;
+    }
+
+    .logo-size {
+        width: 36.41px;
+    }
+
+    .navbar-light .navbar-toggler {
+        // border: transparent;
+    }
+
+    .menu {
+        color: $black;
+        font-size: 10pt;
+    }
+
+    .nav-item.active > .menu {
+        color: $brown;
+    }
+
+    @media only screen and (device-width: 768px) and (device-height: 1024) {
+
+    }
+
+    @media (min-width: 992px) {
+        .bg-nav {
+            background-color: transparent;
+        }
+    }
+
+}

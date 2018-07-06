@@ -1,0 +1,21 @@
+body {
+  background-color: #303030;
+  color: #FCFBE3;
+  font-family: 'Muli', 'Prompt', sans-serif; }
+
+#nav .bg-nav {
+  background-color: #CDBB99; }
+
+#nav .logo-size {
+  width: 36.41px; }
+
+#nav .menu {
+  color: #303030;
+  font-size: 10pt; }
+
+#nav .nav-item.active > .menu {
+  color: #755C3B; }
+
+@media (min-width: 992px) {
+  #nav .bg-nav {
+    background-color: transparent; } }
