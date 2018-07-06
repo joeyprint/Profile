@@ -1,10 +1,11 @@
 @import 'variables';
 
 #banner {
+    z-index: 1;
     overflow: hidden;
     color: $black;
 
-    .bg {
+    .bg01 {
         background-image: url('/imgs/bg.jpg');
         background-repeat: no-repeat;
         background-position: center;
@@ -12,10 +13,87 @@
         height: 90vh;
     }
 
+    .qoute-position {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translateY(-50%);
+    }
+
+    .qoute-up {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+
+    .qoute-down {
+        font-size: 10px;
+        letter-spacing: 1px;
+        line-height: 1;
+    }
+
+    @media (min-width: 768px) {
+        .img-size {
+            position: relative;
+            width: 100vw;
+            height: auto;
+            z-index: -1;
+            padding: 0%;
+            margin: 0;
+        }
+
+        .bg01 {
+            background-image: none;
+            height: auto;
+        }
+
+        .qoute-position {
+            top: 20%;
+        }
+
+        .qoute-up {
+            font-size: 30px;
+            letter-spacing: 5px;
+        }
+
+        .qoute-down {
+            font-size: 11px;
+        }
+    }
+
+    @media only screen and (device-width: 768px) and (device-height: 1024px) {
+    
+    }
+
     @media (min-width: 992px) {
-        .bg {
-            background-image: url('/imgs/bg.svg');
-            height: 100vh;
+        .qoute-position {
+            top: 45%;
+        }
+
+        .qoute-up {
+            font-size: 50px;
+            letter-spacing: 5px;
+        }
+
+        .qoute-down {
+            font-size: 15px;
+        }
+    }
+
+    @media only screen and (device-width: 1024px) and (device-height: 1366px) {
+        .qoute-position {
+            top: 20%;
+        }
+
+        .qoute-up {
+            font-size: 40px;
+            letter-spacing: 5px;
+        }
+
+        .qoute-down {
+            font-size: 12px;
         }
     }
 }

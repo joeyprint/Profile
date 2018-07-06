@@ -1,6 +1,6 @@
 <section id="nav" class="w-100">
     <div class="container-fluid bg-nav">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-md navbar-light">
             <a class="navbar-brand" href="#">
                 <img class="logo-size" src="{{ asset('imgs/logo_Wasin.svg') }}" alt="Wasin" width="100%">
             </a>
