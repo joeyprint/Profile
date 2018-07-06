@@ -3,7 +3,7 @@
 body {
     background-color: $black;
     color: $light-yellow;
-    font-family: 'Muli', 'Prompt', sans-serif;
+    font-family: $muli-r, $prompt, sans-serif;
 }
 
 .no-margin {
