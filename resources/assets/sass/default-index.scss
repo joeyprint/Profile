@@ -6,7 +6,17 @@ body {
     font-family: 'Muli', 'Prompt', sans-serif;
 }
 
+.no-margin {
+    margin: 0px;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
 #nav {
+    position: fixed;
+    
     .bg-nav {
         background-color: $light-brown;
     }
@@ -38,4 +48,45 @@ body {
         }
     }
 
+}
+
+#footer {
+    .text {
+        font-size: 8pt;
+        margin-bottom: 5px;
+    }
+
+    .circle {
+        position: relative;
+        background-color: $light-brown;
+        width: 25px;
+        height: 25px;
+        border-radius: 30px;
+        margin: 0px 5px;
+    }
+
+    .icon {
+        height: 9px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    @media (min-width: 992px) {
+        .text {
+            font-size: 10pt;
+        }
+
+        .circle {
+            width: 35px;
+            height: 35px;
+            border-radius: 50px;
+        }
+
+        .icon {
+            height: 13px;
+        }
+    }
 }

@@ -28,5 +28,7 @@
 
         {{-- Custom_Script --}}
         @yield('custom_script')
+
+        @include('utils.footer')
     </body>
 </html>
