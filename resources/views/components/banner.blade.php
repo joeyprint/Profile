@@ -3,7 +3,7 @@
     <div class="container-fluid bg01">
         <div class="row justify-content-center qoute-position">
             <div class="col-12 text-center">
-                <h1 class="qoute-up font-weight-bold no-margin">MANY PASSION</h1>
+                <h1 class="qoute-up no-margin">MANY PASSION</h1>
             </div>
             <div class="col-12 text-center">
                 <p class="qoute-down no-margin">MAKE ME TO PRESENT AND FUTURE</p>
