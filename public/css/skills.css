@@ -67,6 +67,7 @@
     #skills .bg-position {
       margin: 0px 0px 0px 0px; }
     #skills .content-position {
+      top: 40% !important;
       left: 30px; }
     #skills .topic-section {
       margin-bottom: 25px;
@@ -84,16 +85,25 @@
       color: #303030;
       font-size: 18px; }
     #skills .bg-skill-bar {
-      height: 35px; }
+      height: 25px; }
     #skills .skill-text {
-      font-size: 15px;
-      line-height: 3; }
+      font-size: 13px;
+      line-height: 2.5; }
     #skills .percent-skill {
-      position: absolute;
-      color: #755C3B;
-      font-size: 15px;
-      line-height: 2.2;
+      font-size: 13px;
+      line-height: 1.8;
       padding-left: 10px; } }
-  @media only screen and (device-width: 1024px) and (device-height: 1366px) {
+  @media only screen and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
     #skills .bg-position {
-      margin: -100px 0px 0px 0px; } }
+      margin: -100px 0px 0px 0px; }
+    #skills .content-position {
+      top: 40%; }
+    #skills .bg-skill-bar {
+      height: 25px; }
+    #skills .skill-text {
+      font-size: 13px;
+      line-height: 2.5; }
+    #skills .percent-skill {
+      font-size: 13px;
+      line-height: 1.8;
+      padding-left: 10px; } }

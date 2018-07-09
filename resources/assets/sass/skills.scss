@@ -100,6 +100,7 @@
         }
 
         .content-position {
+            top: 40% !important;
             left: 30px;
         }
 
@@ -112,15 +113,7 @@
             justify-content: flex-start;
         }
 
-        // .skill-text {
-        //     font-size: 10px;
-        // }
-
-        // .percent-skill {
-        //     font-size: 15px;
-        //     line-height: 2.2;
-        //     padding-left: 10px;
-        // }
+        
     }
 
     @media (min-width: 992px) {
@@ -138,27 +131,48 @@
         }
 
         .bg-skill-bar {
-            height: 35px;
+            height: 25px;
         }
 
         .skill-text {
-            font-size: 15px;
-            line-height: 3;
+            font-size: 13px;
+            line-height: 2.5;
 
         }
 
         .percent-skill {
-            position: absolute;
-            color: #755C3B;
-            font-size: 15px;
-            line-height: 2.2;
+            font-size: 13px;
+            line-height: 1.8;
             padding-left: 10px;
         }
     }
 
-    @media only screen and (device-width: 1024px) and (device-height: 1366px) {
+    @media only screen 
+    and (device-width: 1024px) 
+    and (device-height: 1366px) 
+    and (orientation: portrait) {
         .bg-position {
             margin: -100px 0px 0px 0px;
+        }
+
+        .content-position {
+            top: 40%;
+        }
+
+        .bg-skill-bar {
+            height: 25px;
+        }
+
+        .skill-text {
+            font-size: 13px;
+            line-height: 2.5;
+
+        }
+
+        .percent-skill {
+            font-size: 13px;
+            line-height: 1.8;
+            padding-left: 10px;
         }
     }
 }
