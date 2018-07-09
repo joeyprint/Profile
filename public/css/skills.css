@@ -92,7 +92,9 @@
     #skills .percent-skill {
       font-size: 13px;
       line-height: 1.8;
-      padding-left: 10px; } }
+      padding-left: 10px; }
+    #skills .skill-bar-section {
+      margin-bottom: 20px; } }
   @media only screen and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
     #skills .bg-position {
       margin: -100px 0px 0px 0px; }
