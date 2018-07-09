@@ -12,11 +12,12 @@ body {
 #nav {
   z-index: 999; }
   #nav .bg-nav {
-    background-color: #CDBB99; }
+    background-color: #CDBB99;
+    width: 100vw; }
   #nav .logo-size {
     width: 36.41px; }
   #nav .menu {
-    color: #303030;
+    color: #fff;
     font-size: 10pt; }
   #nav .nav-item.active > .menu {
     color: #755C3B; }

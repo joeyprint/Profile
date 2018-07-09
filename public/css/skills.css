@@ -1,5 +1,6 @@
 #skills {
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   #skills .bg-position {
     position: relative;
     width: 100vw;

@@ -1,4 +1,4 @@
-<section id="nav" class="w-100">
+<section id="nav">
     <div class="container-fluid bg-nav">
         <nav class="navbar navbar-expand-md navbar-light">
             <a class="navbar-brand" href="#">
@@ -10,16 +10,16 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link menu" href="#">HOME</a>
+                        <a class="nav-link menu" href="#banner">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu" href="#">PROFILE</a>
+                        <a class="nav-link menu" href="#profile">PROFILE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu" href="#">SKILLS</a>
+                        <a class="nav-link menu" href="#skills">SKILLS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu" href="#">BLOG</a>
+                        <a class="nav-link menu" href="#blog">BLOG</a>
                     </li>
                 </ul>
             </div> 

@@ -19,6 +19,7 @@ body {
 
     .bg-nav {
         background-color: $light-brown;
+        width: 100vw;
     }
 
     .logo-size {
@@ -30,7 +31,7 @@ body {
     }
 
     .menu {
-        color: $black;
+        color: #fff;
         font-size: 10pt;
     }
 
