@@ -1,11 +1,11 @@
 #skills {
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: -1; }
   #skills .bg-position {
     position: relative;
     width: 100vw;
     height: auto;
-    z-index: -1;
     padding: 0;
     margin: 20px 0px 0px 0px; }
   #skills .content-position {
