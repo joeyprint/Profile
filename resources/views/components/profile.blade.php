@@ -24,9 +24,9 @@
                 </div>
                 <div class="row justify-content-center text-center">
                     <p class="no-margin des-text">
-                        Alchemist is group of student at <br class="d-md-none">Information Technology Faculty, KMUTT.<br>
+                        Alchemist is a group of student at <br class="d-md-none">Information Technology Faculty, KMUTT.<br>
                         We have a passionate  <br class="d-md-none">and want to find experience.<br>
-                        In this group have many mentor  <br class="d-md-none">for counseling <br class="d-md-none">and all mentor are alumni of this faculty.
+                        In this group have many mentors   <br class="d-md-none">for counseling <br class="d-md-none">and all mentor are alumni of this faculty.
                     </p>
                 </div>
             </div>
