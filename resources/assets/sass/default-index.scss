@@ -101,4 +101,11 @@ body {
             height: 13px;
         }
     }
+
+    @media only screen 
+    and (device-width: 1024px) 
+    and (device-height: 1366px) 
+    and (orientation: portrait) {
+        margin-top: 100px;
+    }
 }

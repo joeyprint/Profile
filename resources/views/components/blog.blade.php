@@ -4,7 +4,7 @@
 
     <div class="container blog-content">
         <div class="row justify-content-end">
-            <div class="col-12 col-md-2 text-right">
+            <div class="col-12 col-md-3 text-right">
                 <p class="my-text no-margin">MY</p>
                 <p class="blog-text no-margin">BLOG</p>
             </div>

@@ -90,6 +90,11 @@
         background-color: $light-yellow;
         font-size: 10px;
         padding: 10px 5px;
+        cursor: pointer;
+    }
+
+    .btn-viewall:hover {
+        background-color: $light-brown;
     }
 
     .viewall-text {
@@ -101,6 +106,14 @@
         .blog-content {
             left: 0%;
             top: 30%;
+        }
+
+        .my-text {
+            font-size: 20px;
+        }
+    
+        .blog-text {
+            font-size: 40px;
         }
 
         .margin-content {
@@ -152,12 +165,5 @@
         .btn-viewall {
             font-size: 15px;
         }
-    }
-
-    @media only screen 
-    and (device-width: 1024px) 
-    and (device-height: 1366px) 
-    and (orientation: portrait) {
-
     }
 }
