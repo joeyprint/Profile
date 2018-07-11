@@ -32,31 +32,33 @@ body {
     #nav .menu {
       padding: 0px 15px; } }
 
-#footer .text {
-  font-size: 10px;
-  margin-bottom: 5px; }
-
-#footer .circle {
-  position: relative;
-  background-color: #CDBB99;
-  width: 25px;
-  height: 25px;
-  border-radius: 30px;
-  margin: 0px 5px; }
-
-#footer .icon {
-  height: 9px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
-@media (min-width: 992px) {
+#footer {
+  margin: 50px 0px 20px 0px; }
   #footer .text {
-    font-size: 15px; }
+    font-size: 10px;
+    margin-bottom: 5px; }
   #footer .circle {
-    width: 35px;
-    height: 35px;
-    border-radius: 50px; }
+    position: relative;
+    background-color: #CDBB99;
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    margin: 0px 5px; }
   #footer .icon {
-    height: 13px; } }
+    height: 9px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  @media (min-width: 992px) {
+    #footer {
+      margin: auto;
+      margin-bottom: 20px; }
+      #footer .text {
+        font-size: 15px; }
+      #footer .circle {
+        width: 35px;
+        height: 35px;
+        border-radius: 50px; }
+      #footer .icon {
+        height: 13px; } }

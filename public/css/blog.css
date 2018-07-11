@@ -1,0 +1,95 @@
+#blog {
+  position: relative;
+  z-index: 1;
+  margin-top: -30%; }
+  #blog .bg-position {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    padding: 0; }
+  #blog .blog-content {
+    position: absolute;
+    right: 0%;
+    top: 10%; }
+  #blog .my-text {
+    font-size: 12px;
+    font-weight: 300; }
+  #blog .blog-text {
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 1; }
+  #blog .margin-content {
+    margin-top: 30px; }
+  #blog .topic {
+    font-size: 12px;
+    font-weight: 700; }
+  #blog .description {
+    font-family: 'Prompt';
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 2; }
+  #blog .line {
+    position: relative;
+    top: -5px;
+    border-top: 5px solid #CDBB99;
+    width: 20px; }
+  #blog .image-blog {
+    margin-top: 30px;
+    border-radius: 10px; }
+  #blog .btn-position {
+    margin-left: 15px; }
+  #blog .btn-readmore {
+    border: 1px solid #FCFBE3;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px;
+    cursor: pointer; }
+  #blog .readmore-text {
+    color: #FCFBE3;
+    text-decoration: none; }
+  #blog .btn-readmore:hover {
+    background-color: #FCFBE3; }
+    #blog .btn-readmore:hover .readmore-text {
+      color: #303030; }
+  #blog .justify-viewall {
+    margin-top: 25px;
+    -ms-flex-pack: center;
+        justify-content: center; }
+  #blog .btn-viewall {
+    background-color: #FCFBE3;
+    font-size: 10px;
+    padding: 10px 5px; }
+  #blog .viewall-text {
+    color: #303030;
+    text-decoration: none; }
+  @media (min-width: 768px) {
+    #blog .blog-content {
+      left: 0%;
+      top: 30%; }
+    #blog .margin-content {
+      margin-top: 50px; }
+    #blog .topic {
+      font-size: 16px; }
+    #blog .description {
+      font-family: 'Prompt';
+      font-size: 10px; }
+    #blog .image-blog {
+      margin-top: 0px; }
+    #blog .justify-viewall {
+      margin-top: 15px;
+      -ms-flex-pack: end;
+          justify-content: flex-end; } }
+  @media (min-width: 992px) {
+    #blog .margin-content {
+      margin-top: 100px; }
+    #blog .topic {
+      font-size: 25px; }
+    #blog .description {
+      font-family: 'Prompt';
+      font-size: 15px; }
+    #blog .line {
+      width: 30px; }
+    #blog .btn-readmore {
+      font-size: 15px; }
+    #blog .btn-viewall {
+      font-size: 15px; } }

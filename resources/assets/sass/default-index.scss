@@ -59,6 +59,8 @@ body {
 }
 
 #footer {
+    margin: 50px 0px 20px 0px;
+
     .text {
         font-size: 10px;
         margin-bottom: 5px;
@@ -81,8 +83,10 @@ body {
         transform: translate(-50%, -50%);
     }
 
-
     @media (min-width: 992px) {
+        margin: auto;
+        margin-bottom: 20px;
+
         .text {
             font-size: 15px;
         }
