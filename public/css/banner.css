@@ -63,3 +63,9 @@
       letter-spacing: 5px; }
     #banner .qoute-down {
       font-size: 12px; } }
+  @media (min-width: 1200px) {
+    #banner .qoute-up {
+      font-size: 65px;
+      letter-spacing: 5px; }
+    #banner .qoute-down {
+      font-size: 20px; } }

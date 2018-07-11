@@ -64,6 +64,7 @@
         padding-left: 15px;
         top: -5px;
         background-color: $brown;
+        border: 1px solid $brown;
     }
 
     .percent-skill {
@@ -178,6 +179,20 @@
             font-size: 13px;
             line-height: 1.8;
             padding-left: 10px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .bg-skill-bar {
+            height: 30px;
+        }
+
+        .skill-text {
+            font-size: 15px;
+        }
+
+        .percent-skill {
+            font-size: 15px;
         }
     }
 }
