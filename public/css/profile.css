@@ -1,0 +1,70 @@
+#profile {
+  position: relative;
+  height: 90vh; }
+  #profile .profile-position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  #profile .my-img {
+    width: 79px;
+    height: 79px;
+    border: 1px solid #CDBB99;
+    border-radius: 120px; }
+  #profile .name-text {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 2px; }
+  #profile .university-text {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 300; }
+  #profile .line {
+    margin-top: 25px;
+    width: 168.36px;
+    border-top: 1px solid #CDBB99; }
+  #profile .group-text {
+    margin-top: 25px;
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 700; }
+  #profile .position-text {
+    margin-top: 15px;
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: 2px; }
+  #profile .des-text {
+    margin-top: 15px;
+    font-size: 11px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 300; }
+  @media only screen and (device-width: 768px) and (device-height: 1024px) {
+    #profile {
+      height: 60vh; } }
+  @media (min-width: 992px) {
+    #profile .my-img {
+      width: 100px;
+      height: 100px; }
+    #profile .name-text {
+      font-size: 20px; }
+    #profile .line {
+      margin-top: 45px;
+      width: 260px; }
+    #profile .group-text {
+      margin-top: 45px;
+      font-size: 25px; }
+    #profile .position-text {
+      font-size: 18px; }
+    #profile .des-text {
+      font-size: 16px; } }
+  @media only screen and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
+    #profile {
+      height: 60vh; } }
+  @media only screen and (device-width: 1366px) and (device-height: 1024px) and (orientation: landscape) {
+    #profile {
+      height: 70vh; } }

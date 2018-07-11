@@ -1,0 +1,112 @@
+#skills {
+  position: relative;
+  overflow: hidden;
+  z-index: -1; }
+  #skills .bg-position {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    margin: 20px 0px 0px 0px; }
+  #skills .content-position {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%); }
+  #skills .topic-section {
+    margin-bottom: 25px;
+    -ms-flex-pack: center;
+        justify-content: center; }
+  #skills .icon-size {
+    width: 45px;
+    height: auto; }
+  #skills .text-category-skill {
+    color: #303030;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1; }
+  #skills .text-underskill {
+    color: #303030;
+    font-size: 10px; }
+  #skills .skill-bar-section {
+    margin-bottom: 10px;
+    -ms-flex-pack: center;
+        justify-content: center; }
+  #skills .bg-skill-bar {
+    position: relative;
+    overflow: hidden;
+    background-color: #FCFBE3;
+    border: 1px solid #755C3B;
+    border-radius: 10px;
+    width: 100%;
+    height: 20px; }
+  #skills .skill-text {
+    display: inline-block;
+    position: relative;
+    font-size: 10px;
+    line-height: 2;
+    padding-left: 15px;
+    top: -5px;
+    background-color: #755C3B; }
+  #skills .percent-skill {
+    display: inline-block;
+    position: absolute;
+    color: #755C3B;
+    font-size: 10px;
+    line-height: 2;
+    padding-left: 10px; }
+  #skills .ps {
+    width: 75%; }
+  #skills .ai {
+    width: 65%; }
+  #skills .id {
+    width: 60%; }
+  #skills .xd {
+    width: 85%; }
+  #skills .sketch {
+    width: 50%; }
+  @media (min-width: 768px) {
+    #skills .bg-position {
+      margin: 0px 0px 0px 0px; }
+    #skills .content-position {
+      top: 40% !important;
+      left: 30px; }
+    #skills .topic-section {
+      margin-bottom: 25px;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+    #skills .skill-bar-section {
+      -ms-flex-pack: start;
+          justify-content: flex-start; } }
+  @media (min-width: 992px) {
+    #skills .icon-size {
+      width: 80px; }
+    #skills .text-category-skill {
+      font-size: 30px; }
+    #skills .text-underskill {
+      color: #303030;
+      font-size: 18px; }
+    #skills .bg-skill-bar {
+      height: 25px; }
+    #skills .skill-text {
+      font-size: 13px;
+      line-height: 2.5; }
+    #skills .percent-skill {
+      font-size: 13px;
+      line-height: 1.8;
+      padding-left: 10px; }
+    #skills .skill-bar-section {
+      margin-bottom: 20px; } }
+  @media only screen and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
+    #skills .bg-position {
+      margin: -100px 0px 0px 0px; }
+    #skills .content-position {
+      top: 40%; }
+    #skills .bg-skill-bar {
+      height: 25px; }
+    #skills .skill-text {
+      font-size: 13px;
+      line-height: 2.5; }
+    #skills .percent-skill {
+      font-size: 13px;
+      line-height: 1.8;
+      padding-left: 10px; } }

@@ -15,10 +15,11 @@ body {
 }
 
 #nav {
-    position: fixed;
-    
+    z-index: 999;
+
     .bg-nav {
         background-color: $light-brown;
+        width: 100vw;
     }
 
     .logo-size {
@@ -30,7 +31,7 @@ body {
     }
 
     .menu {
-        color: $black;
+        color: #fff;
         font-size: 10pt;
     }
 
@@ -38,21 +39,30 @@ body {
         color: $brown;
     }
 
-    @media only screen and (device-width: 768px) and (device-height: 1024) {
+    @media (min-width: 768px) {
+        position: fixed;
 
-    }
-
-    @media (min-width: 992px) {
         .bg-nav {
             background-color: transparent;
         }
+
+        .menu {
+            padding: 0px 10px;
+        }
     }
 
+    @media (min-width: 992px) {
+        .menu {
+            padding: 0px 15px;
+        }
+    }
 }
 
 #footer {
+    margin: 50px 0px 20px 0px;
+
     .text {
-        font-size: 8pt;
+        font-size: 10px;
         margin-bottom: 5px;
     }
 
@@ -73,10 +83,12 @@ body {
         transform: translate(-50%, -50%);
     }
 
-
     @media (min-width: 992px) {
+        margin: auto;
+        margin-bottom: 20px;
+
         .text {
-            font-size: 10pt;
+            font-size: 15px;
         }
 
         .circle {
@@ -88,5 +100,12 @@ body {
         .icon {
             height: 13px;
         }
+    }
+
+    @media only screen 
+    and (device-width: 1024px) 
+    and (device-height: 1366px) 
+    and (orientation: portrait) {
+        margin-top: 100px;
     }
 }

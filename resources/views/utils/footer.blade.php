@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <p class="text">INTERESTED MY EXPERIENCE ?</p>
+                <p class="text">INTERESTED IN MY EXPERIENCE ?</p>
             </div>
         </div>
         <div class="row">

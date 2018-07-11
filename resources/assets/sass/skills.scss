@@ -1,0 +1,183 @@
+@import 'variables';
+
+#skills {
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+
+    .bg-position {
+        position: relative;
+        width: 100vw;
+        height: auto;
+        padding: 0;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .content-position {
+        position: absolute;
+        top: 45%;
+        transform: translateY(-50%);
+    }
+
+    .topic-section {
+        margin-bottom: 25px;
+        justify-content: center;
+    }
+
+    .icon-size {
+        width: 45px;
+        height: auto;
+    }
+
+    .text-category-skill {
+        color: $black;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1;
+    }
+    
+    .text-underskill {
+        color: $black;
+        font-size: 10px;
+    }
+
+    .skill-bar-section {
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+
+    .bg-skill-bar {
+        position: relative;
+        overflow: hidden;
+        background-color: $light-yellow;
+        border: 1px solid $brown;
+        border-radius: 10px;
+        width: 100%;
+        height: 20px;
+    }
+
+    .skill-text {
+        display: inline-block;
+        position: relative;
+        font-size: 10px;
+        line-height: 2;
+        padding-left: 15px;
+        top: -5px;
+        background-color: $brown;
+    }
+
+    .percent-skill {
+        display: inline-block;
+        position: absolute;
+        color: #755C3B;
+        font-size: 10px;
+        line-height: 2;
+        padding-left: 10px;
+    }
+
+    .ps {
+        width: 75%;
+    }
+    
+    .ai {
+        width: 65%;
+    }
+
+    .id {
+        width: 60%;
+    }
+
+    .xd {
+        width: 85%;
+    }
+
+    .sketch {
+        width: 50%;
+    }
+
+    @media (min-width: 768px) {
+        .bg-position {
+            margin: 0px 0px 0px 0px;
+        }
+
+        .content-position {
+            top: 40% !important;
+            left: 30px;
+        }
+
+        .topic-section {
+            margin-bottom: 25px;
+            justify-content: flex-start;
+        }
+
+        .skill-bar-section {
+            justify-content: flex-start;
+        }
+
+        
+    }
+
+    @media (min-width: 992px) {
+        .icon-size {
+            width: 80px;
+        }
+        
+        .text-category-skill {
+            font-size: 30px;
+        }
+        
+        .text-underskill {
+            color: $black;
+            font-size: 18px;
+        }
+
+        .bg-skill-bar {
+            height: 25px;
+        }
+
+        .skill-text {
+            font-size: 13px;
+            line-height: 2.5;
+
+        }
+
+        .percent-skill {
+            font-size: 13px;
+            line-height: 1.8;
+            padding-left: 10px;
+        }
+
+        .skill-bar-section {
+            margin-bottom: 20px;
+        }
+    }
+
+    @media only screen 
+    and (device-width: 1024px) 
+    and (device-height: 1366px) 
+    and (orientation: portrait) {
+        .bg-position {
+            margin: -100px 0px 0px 0px;
+        }
+
+        .content-position {
+            top: 40%;
+        }
+
+        .bg-skill-bar {
+            height: 25px;
+        }
+
+        .skill-text {
+            font-size: 13px;
+            line-height: 2.5;
+
+        }
+
+        .percent-skill {
+            font-size: 13px;
+            line-height: 1.8;
+            padding-left: 10px;
+        }
+    }
+}

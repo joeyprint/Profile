@@ -1,0 +1,169 @@
+@import 'variables';
+#blog {
+    position: relative;
+    // overflow: hidden;
+    z-index: 1;
+    margin-top: -30%;
+
+    .bg-position {
+        position: relative;
+        width: 100vw;
+        height: auto;
+        padding: 0;
+    }
+
+    .blog-content {
+        position: absolute;
+        right: 0%;
+        top: 10%;
+    }
+
+    .my-text {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .blog-text {
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    .margin-content {
+        margin-top: 30px;
+    }
+
+    .topic {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .description {
+        font-family: 'Prompt';
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 2;
+    }
+
+    .line {
+        position: relative;
+        top: -5px;
+        border-top: 5px solid $light-brown;
+        width: 20px;
+    }
+
+    .image-blog {
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+
+    .btn-position {
+        margin-left: 15px;
+    }
+
+    .btn-readmore {
+        border: 1px solid $light-yellow;
+        border-radius: 10px;
+        font-size: 10px;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .readmore-text {
+        color: $light-yellow;
+        text-decoration: none;
+    }
+
+    .btn-readmore:hover {
+        background-color: $light-yellow;
+        .readmore-text {
+            color: $black;
+        }
+    }
+
+    .justify-viewall {
+        margin-top: 25px;
+        justify-content: center;
+    }
+
+    .btn-viewall {
+        background-color: $light-yellow;
+        font-size: 10px;
+        padding: 10px 5px;
+        cursor: pointer;
+    }
+
+    .btn-viewall:hover {
+        background-color: $light-brown;
+    }
+
+    .viewall-text {
+        color: $black;
+        text-decoration: none;
+    }
+
+    @media (min-width: 768px) {
+        .blog-content {
+            left: 0%;
+            top: 30%;
+        }
+
+        .my-text {
+            font-size: 20px;
+        }
+    
+        .blog-text {
+            font-size: 40px;
+        }
+
+        .margin-content {
+            margin-top: 50px;
+        }
+
+        .topic {
+            font-size: 16px;
+        }
+    
+        .description {
+            font-family: 'Prompt';
+            font-size: 10px;
+        }
+
+        .image-blog {
+            margin-top: 0px;
+        }
+
+        .justify-viewall {
+            margin-top: 15px;
+            justify-content: flex-end;
+        }
+    
+    }
+
+    @media (min-width: 992px) {
+        .margin-content {
+            margin-top: 100px;
+        }
+
+        .topic {
+            font-size: 25px;
+        }
+    
+        .description {
+            font-family: 'Prompt';
+            font-size: 15px;
+        }
+
+        .line {
+            width: 30px;
+        }
+
+        .btn-readmore {
+            font-size: 15px;
+        }
+
+        .btn-viewall {
+            font-size: 15px;
+        }
+    }
+}
