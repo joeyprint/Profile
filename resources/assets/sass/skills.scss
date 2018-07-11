@@ -97,6 +97,7 @@
 
     @media (min-width: 768px) {
         .bg-position {
+            top: -50px;
             margin: 0px 0px 0px 0px;
         }
 
@@ -157,7 +158,7 @@
     and (device-height: 1366px) 
     and (orientation: portrait) {
         .bg-position {
-            margin: -100px 0px 0px 0px;
+            margin: 0px 0px 0px 0px;
         }
 
         .content-position {

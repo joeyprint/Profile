@@ -10,6 +10,7 @@ body {
   padding: 0px; }
 
 #nav {
+  position: fixed;
   z-index: 999; }
   #nav .bg-nav {
     background-color: #CDBB99;
@@ -22,12 +23,10 @@ body {
   #nav .nav-item.active > .menu {
     color: #755C3B; }
   @media (min-width: 768px) {
-    #nav {
-      position: fixed; }
-      #nav .bg-nav {
-        background-color: transparent; }
-      #nav .menu {
-        padding: 0px 10px; } }
+    #nav .bg-nav {
+      background-color: transparent; }
+    #nav .menu {
+      padding: 0px 10px; } }
   @media (min-width: 992px) {
     #nav .menu {
       padding: 0px 15px; } }
