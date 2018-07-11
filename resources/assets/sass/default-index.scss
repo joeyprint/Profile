@@ -4,6 +4,10 @@ body {
     background-color: $black;
     color: $light-yellow;
     font-family: 'Muli', 'Prompt', sans-serif;
+
+    @media (min-width: 1200px) {
+        font-size: 15px;
+    }
 }
 
 .no-margin {
@@ -16,6 +20,7 @@ body {
 
 #nav {
     position: fixed;
+    top: 0px;
     z-index: 999;
 
     .bg-nav {
@@ -32,7 +37,7 @@ body {
     }
 
     .menu {
-        color: #fff;
+        color: $black;
         font-size: 10pt;
     }
 
@@ -46,6 +51,7 @@ body {
         }
 
         .menu {
+            color: #fff;
             padding: 0px 10px;
         }
     }
@@ -55,10 +61,17 @@ body {
             padding: 0px 15px;
         }
     }
+
+    @media (min-width: 1600px) {
+        .menu {
+            font-size: 15pt;
+        }
+    }
 }
 
 #footer {
     margin: 50px 0px 20px 0px;
+    z-index: 999;
 
     .text {
         font-size: 10px;
@@ -82,6 +95,11 @@ body {
         transform: translate(-50%, -50%);
     }
 
+    // @media (min-width: 576px) {
+    //     margin-top: -50px;
+    //     margin-bottom: 20px;
+    // }
+
     @media (min-width: 992px) {
         margin: auto;
         margin-bottom: 20px;
@@ -101,10 +119,19 @@ body {
         }
     }
 
+    @media (min-width: 992px)
+    and (orientation: portrait) {
+        margin-top: 100px;
+    }
+
     @media only screen 
     and (device-width: 1024px) 
     and (device-height: 1366px) 
     and (orientation: portrait) {
         margin-top: 100px;
+    }
+
+    @media (min-width: 1200px) {
+        
     }
 }

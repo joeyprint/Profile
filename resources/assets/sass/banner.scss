@@ -4,6 +4,8 @@
     z-index: 1;
     overflow: hidden;
     color: $black;
+    filter: sepia(20%);
+    margin-top: 50px;
 
     .bg01 {
         background-image: url('/imgs/bg.jpg');
@@ -36,6 +38,8 @@
     }
 
     @media (min-width: 768px) {
+        margin-top: 0px;
+        
         .img-size {
             position: relative;
             width: 100vw;

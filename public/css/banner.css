@@ -1,7 +1,10 @@
 #banner {
   z-index: 1;
   overflow: hidden;
-  color: #303030; }
+  color: #303030;
+  -webkit-filter: sepia(20%);
+          filter: sepia(20%);
+  margin-top: 50px; }
   #banner .bg01 {
     background-image: url("/imgs/bg.jpg");
     background-repeat: no-repeat;
@@ -25,23 +28,25 @@
     letter-spacing: 1px;
     line-height: 1; }
   @media (min-width: 768px) {
-    #banner .img-size {
-      position: relative;
-      width: 100vw;
-      height: auto;
-      z-index: -1;
-      padding: 0%;
-      margin: 0; }
-    #banner .bg01 {
-      background-image: none;
-      height: auto; }
-    #banner .qoute-position {
-      top: 20%; }
-    #banner .qoute-up {
-      font-size: 30px;
-      letter-spacing: 5px; }
-    #banner .qoute-down {
-      font-size: 11px; } }
+    #banner {
+      margin-top: 0px; }
+      #banner .img-size {
+        position: relative;
+        width: 100vw;
+        height: auto;
+        z-index: -1;
+        padding: 0%;
+        margin: 0; }
+      #banner .bg01 {
+        background-image: none;
+        height: auto; }
+      #banner .qoute-position {
+        top: 20%; }
+      #banner .qoute-up {
+        font-size: 30px;
+        letter-spacing: 5px; }
+      #banner .qoute-down {
+        font-size: 11px; } }
   @media (min-width: 992px) {
     #banner .qoute-position {
       top: 45%; }

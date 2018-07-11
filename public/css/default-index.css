@@ -2,6 +2,9 @@ body {
   background-color: #303030;
   color: #FCFBE3;
   font-family: 'Muli', 'Prompt', sans-serif; }
+  @media (min-width: 1200px) {
+    body {
+      font-size: 15px; } }
 
 .no-margin {
   margin: 0px; }
@@ -11,6 +14,7 @@ body {
 
 #nav {
   position: fixed;
+  top: 0px;
   z-index: 999; }
   #nav .bg-nav {
     background-color: #CDBB99;
@@ -18,7 +22,7 @@ body {
   #nav .logo-size {
     width: 36.41px; }
   #nav .menu {
-    color: #fff;
+    color: #303030;
     font-size: 10pt; }
   #nav .nav-item.active > .menu {
     color: #755C3B; }
@@ -26,13 +30,18 @@ body {
     #nav .bg-nav {
       background-color: transparent; }
     #nav .menu {
+      color: #fff;
       padding: 0px 10px; } }
   @media (min-width: 992px) {
     #nav .menu {
       padding: 0px 15px; } }
+  @media (min-width: 1600px) {
+    #nav .menu {
+      font-size: 15pt; } }
 
 #footer {
-  margin: 50px 0px 20px 0px; }
+  margin: 50px 0px 20px 0px;
+  z-index: 999; }
   #footer .text {
     font-size: 10px;
     margin-bottom: 5px; }
@@ -61,6 +70,9 @@ body {
         border-radius: 50px; }
       #footer .icon {
         height: 13px; } }
+  @media (min-width: 992px) and (orientation: portrait) {
+    #footer {
+      margin-top: 100px; } }
   @media only screen and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
     #footer {
       margin-top: 100px; } }
