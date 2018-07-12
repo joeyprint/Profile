@@ -10,16 +10,16 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link menu" href="#banner">HOME</a>
+                        <a class="nav-link menu active" data-nav="banner" href="#banner">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu" href="#profile">PROFILE</a>
+                        <a class="nav-link menu" data-nav="profile" href="#profile">PROFILE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu" href="#skills">SKILLS</a>
+                        <a class="nav-link menu" data-nav="skills" href="#skills">SKILLS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu" href="#blog">BLOG</a>
+                        <a class="nav-link menu" data-nav="blog" href="#blog">BLOG</a>
                     </li>
                 </ul>
             </div> 

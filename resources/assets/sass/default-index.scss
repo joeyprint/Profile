@@ -45,7 +45,7 @@ body {
         color: $brown;
     }
 
-    .nav-item.active > .menu {
+    .nav-link.active {
         color: $brown;
     }
 
@@ -133,4 +133,14 @@ body {
     @media (min-width: 1200px) {
         
     }
+}
+
+@keyframes leftToRight {
+    from {width: 20%}
+    to {width: intial}
+}
+
+@-webkit-keyframes leftToRight {
+    from {width: 20%}
+    to {width: intial}
 }
