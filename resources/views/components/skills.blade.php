@@ -67,19 +67,19 @@
             </div>
             <div class="row skill-bar-section">
                 <div class="col-10 col-md-5 bg-skill-bar no-padding">
-                    <p class="skill-text ps">HTML / CSS / jQuery</p>
+                    <p class="skill-text html">HTML / CSS / jQuery</p>
                     <p class="percent-skill">80 %</p>
                 </div>
             </div>
             <div class="row skill-bar-section">
                 <div class="col-10 col-md-5 bg-skill-bar no-padding">
-                    <p class="skill-text ai">React</p>
+                    <p class="skill-text react">React</p>
                     <p class="percent-skill">45 %</p>
                 </div>
             </div>
             <div class="row skill-bar-section">
                 <div class="col-10 col-md-5 bg-skill-bar no-padding">
-                    <p class="skill-text id">php / Laravel</p>
+                    <p class="skill-text php">php / Laravel</p>
                     <p class="percent-skill">65 %</p>
                 </div>
             </div>
