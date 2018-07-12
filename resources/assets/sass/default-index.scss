@@ -41,6 +41,10 @@ body {
         font-size: 10pt;
     }
 
+    .menu:hover {
+        color: $brown;
+    }
+
     .nav-item.active > .menu {
         color: $brown;
     }
@@ -94,11 +98,6 @@ body {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-
-    // @media (min-width: 576px) {
-    //     margin-top: -50px;
-    //     margin-bottom: 20px;
-    // }
 
     @media (min-width: 992px) {
         margin: auto;
