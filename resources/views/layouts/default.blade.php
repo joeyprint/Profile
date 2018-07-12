@@ -9,6 +9,7 @@
         {{-- <link rel="shortcut-icon" href="{{ asset('imgs/logo_Wasin.svg') }}" /> --}}
         <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700|Prompt" rel="stylesheet">
         <link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('/css/aos.css') }}">
         <link rel="stylesheet" href="{{ asset('/css/default-index.css') }}">
 
         {{-- Custom_Head --}}
@@ -24,8 +25,11 @@
 
         <script src="{{ asset('/js/jquery-3.3.1.min.js') }}"></script>
         <script src="{{ asset('/js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('/js/default-all.js') }}"></script>
+        <script src="{{ asset('/js/aos.js') }}"></script>
         <script>
             var asset_url = "{{ asset('') }}";
+            AOS.init();
         </script>
 
         {{-- Custom_Script --}}

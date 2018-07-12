@@ -1,7 +1,7 @@
 @import 'variables';
 #blog {
     position: relative;
-    overflow: hidden;
+    // overflow: hidden;
     z-index: 1;
     margin-top: -30%;
 
@@ -177,6 +177,8 @@
     }
 
     @media (min-width: 992px) {
+        overflow: hidden;
+        
         .margin-content {
             margin-top: 100px;
         }

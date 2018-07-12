@@ -1,6 +1,6 @@
 <section id="profile">
     <div class="container profile-position">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">
             <div class="col-11">
                 <div class="row justify-content-center">
                     <div class="col-4 text-center">
