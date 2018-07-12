@@ -1,4 +1,8 @@
 $(document).ready(function () {
+    $(window).on('load', function () {
+        AOS.refresh();
+    });
+
     $('.nav-link').on('click', function (e) {
         var nav = $(this).data("nav");
         console.log(nav);

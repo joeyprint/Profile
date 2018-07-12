@@ -25,8 +25,8 @@
 
         <script src="{{ asset('/js/jquery-3.3.1.min.js') }}"></script>
         <script src="{{ asset('/js/bootstrap.min.js') }}"></script>
-        <script src="{{ asset('/js/default-all.js') }}"></script>
         <script src="{{ asset('/js/aos.js') }}"></script>
+        <script src="{{ asset('/js/default-all.js') }}"></script>
         <script>
             var asset_url = "{{ asset('') }}";
             AOS.init();
