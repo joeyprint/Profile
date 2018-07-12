@@ -1,6 +1,5 @@
 #blog {
   position: relative;
-  overflow: hidden;
   z-index: 1;
   margin-top: -30%; }
   #blog .bg-position {
@@ -109,19 +108,21 @@
       -ms-flex-pack: end !important;
           justify-content: flex-end !important; } }
   @media (min-width: 992px) {
-    #blog .margin-content {
-      margin-top: 100px; }
-    #blog .topic {
-      font-size: 25px; }
-    #blog .description {
-      font-family: 'Prompt';
-      font-size: 15px; }
-    #blog .line {
-      width: 30px; }
-    #blog .btn-readmore {
-      font-size: 15px; }
-    #blog .btn-viewall {
-      font-size: 15px; } }
+    #blog {
+      overflow: hidden; }
+      #blog .margin-content {
+        margin-top: 100px; }
+      #blog .topic {
+        font-size: 25px; }
+      #blog .description {
+        font-family: 'Prompt';
+        font-size: 15px; }
+      #blog .line {
+        width: 30px; }
+      #blog .btn-readmore {
+        font-size: 15px; }
+      #blog .btn-viewall {
+        font-size: 15px; } }
   @media (min-width: 1200px) {
     #blog .blog-content {
       top: 60%;
