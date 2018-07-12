@@ -33,7 +33,10 @@ body {
       background-color: transparent; }
     #nav .menu {
       color: #fff;
-      padding: 0px 10px; } }
+      padding: 0px 10px; }
+    #nav .nav-link.active {
+      color: #b1803f;
+      font-weight: 700; } }
   @media (min-width: 992px) {
     #nav .menu {
       padding: 0px 15px; } }

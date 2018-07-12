@@ -58,6 +58,11 @@ body {
             color: #fff;
             padding: 0px 10px;
         }
+
+        .nav-link.active {
+            color: #b1803f;
+            font-weight: 700;
+        }
     }
 
     @media (min-width: 992px) {
