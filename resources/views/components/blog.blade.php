@@ -3,18 +3,18 @@
     <img class="d-block d-md-none bg-position" src="{{ asset('imgs/bg_myblog_mobile.svg') }}" alt="" width="100%">
 
     <div class="container blog-content">
-        <div class="row justify-content-end">
+        <div class="row justify-content-end" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">
             <div class="col-12 col-md-3 text-right">
                 <p class="my-text no-margin">MY</p>
                 <p class="blog-text no-margin">BLOG</p>
             </div>
         </div>
-        <div class="row d-block d-md-none">
+        <div class="row d-block d-md-none" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">
             <div class="col-12">
                 <img class="image-blog" src="{{ $blog->thumbnail }}" alt="" width="100%">
             </div>
         </div>
-        <div class="row justify-content-center margin-content align-items-center">
+        <div class="row justify-content-center margin-content align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">
             <div class="col-12 col-md-6">
                 <div class="row justify-content-center">
                     <div class="col-11">

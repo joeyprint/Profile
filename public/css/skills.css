@@ -13,6 +13,7 @@
     top: 45%;
     transform: translateY(-50%); }
   #skills .topic-section {
+    margin-top: 30px;
     margin-bottom: 25px;
     -ms-flex-pack: center;
         justify-content: center; }
@@ -48,7 +49,7 @@
     top: -5px;
     background-color: #755C3B;
     border: 1px solid #755C3B;
-    animation: leftToRight 2s 1; }
+    animation: leftToRight 2s; }
   #skills .percent-skill {
     display: inline-block;
     position: absolute;
@@ -66,6 +67,12 @@
     width: 85%; }
   #skills .sketch {
     width: 50%; }
+  #skills .html {
+    width: 80%; }
+  #skills .react {
+    width: 45%; }
+  #skills .php {
+    width: 65%; }
   @media (min-width: 768px) {
     #skills .bg-position {
       margin: 0px 0px 0px 0px; }
