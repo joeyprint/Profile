@@ -8,10 +8,14 @@
         <div class="row">
             <div class="d-flex flex-row justify-content-center w-100">
                 <div class="circle text-right">
-                    <img class="icon" src="{{ asset('/imgs/envelope-regular.svg') }}" alt="mail" width="100%">
+                    <a href="mailto:wasin.ww1402@gmail.com">
+                        <img class="icon" src="{{ asset('/imgs/envelope-regular.svg') }}" alt="mail" width="100%">
+                    </a>
                 </div>
                 <div class="circle">
-                    <img class="icon" src="{{ asset('/imgs/facebook-f-brands.svg') }}" alt="fb" width="100%">
+                    <a href="https://www.facebook.com/joeyprint">
+                        <img class="icon" src="{{ asset('/imgs/facebook-f-brands.svg') }}" alt="fb" width="100%">
+                    </a>
                 </div>
             </div>
         </div>

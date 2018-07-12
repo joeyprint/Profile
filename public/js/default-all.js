@@ -1,4 +1,4 @@
-$(Document).ready(function () {
+$(document).ready(function () {
     $('.nav-link').on('click', function (e) {
         var nav = $(this).data("nav");
         console.log(nav);
