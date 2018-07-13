@@ -46,7 +46,7 @@ body {
 
 #footer {
   margin: 50px 0px 20px 0px;
-  z-index: 999; }
+  z-index: 1; }
   #footer .text {
     font-size: 10px;
     margin-bottom: 5px; }
@@ -64,17 +64,14 @@ body {
     left: 50%;
     transform: translate(-50%, -50%); }
   @media (min-width: 992px) {
-    #footer {
-      margin: auto;
-      margin-bottom: 20px; }
-      #footer .text {
-        font-size: 15px; }
-      #footer .circle {
-        width: 35px;
-        height: 35px;
-        border-radius: 50px; }
-      #footer .icon {
-        height: 13px; } }
+    #footer .text {
+      font-size: 15px; }
+    #footer .circle {
+      width: 35px;
+      height: 35px;
+      border-radius: 50px; }
+    #footer .icon {
+      height: 13px; } }
   @media (min-width: 992px) and (orientation: portrait) {
     #footer {
       margin-top: 100px; } }

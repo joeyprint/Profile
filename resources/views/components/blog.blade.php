@@ -1,5 +1,5 @@
 <section id="blog">
-    <img class="d-none d-md-block bg-position" src="{{ asset('imgs/bg_myblog.svg') }}" alt="" width="100%">
+    {{-- <img class="d-none d-md-block bg-position" src="{{ asset('imgs/bg_myblog.svg') }}" alt="" width="100%"> --}}
     <img class="d-block d-md-none bg-position" src="{{ asset('imgs/bg_myblog_mobile.svg') }}" alt="" width="100%">
 
     <div class="container blog-content">

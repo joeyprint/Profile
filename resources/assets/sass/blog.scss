@@ -112,6 +112,7 @@
 
     @media (min-width: 576px) {
         .blog-content {
+            position: initial;
             top: 55%;
             transform: translateY(-50%);
         }
@@ -139,8 +140,12 @@
     }
 
     @media (min-width: 768px) {
+        position: relative;
+        margin-top: 0;
+
         .blog-content {
-            top: 30%;
+            top: 0%;
+            bottom: 0%;
             transform: none;
         }
 
@@ -177,7 +182,7 @@
     }
 
     @media (min-width: 992px) {
-        overflow: hidden;
+        // overflow: hidden;
         
         .margin-content {
             margin-top: 100px;
@@ -205,10 +210,12 @@
         }
     }
 
-    @media (min-width: 1200px) {
-        .blog-content {
-            top: 60%;
-            transform: translateY(-50%);
-        }
+    @media (min-width: 1600px) {
+        height: 50vh;
+
+        // .blog-content {
+        //     top: 65%;
+        //     transform: translateY(-50%);
+        // }
     }
 }
