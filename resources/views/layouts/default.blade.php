@@ -19,6 +19,7 @@
 
         {{-- Navbar --}}
         @include('utils.navbar')
+    <a href="#banner" class="sf-back-to-top d-md-none"><span class="arrow"><img src="{{ asset('/imgs/arrow-up-solid.svg') }}" alt="" width="100%"></span>Top</a>
 
         {{-- Content --}}
         @yield('content')
