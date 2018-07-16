@@ -138,8 +138,12 @@ body {
     }
 
     @media (min-width: 1200px) {
-        
+        margin-top: 125px;
     }
+    
+    // @media (min-width: 1200px) {
+    //     margin-top: 150px;
+    // }
 }
 
 @keyframes leftToRight {

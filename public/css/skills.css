@@ -131,3 +131,8 @@
       font-size: 15px; }
     #skills .percent-skill {
       font-size: 15px; } }
+  @media (min-width: 1600px) {
+    #skills .topic-section {
+      margin-top: 40px; }
+    #skills .skill-bar-section {
+      margin-bottom: 30px; } }

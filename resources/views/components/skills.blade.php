@@ -1,5 +1,5 @@
 <section id="skills">
-    <img class="d-none d-md-block bg-position" src="{{ asset('imgs/bg_skill-01.svg') }}" alt="" width="100%">
+    <img class="d-none d-md-block bg-position" src="{{ asset('imgs/bg_skill-01.png') }}" alt="" width="100%">
     <img class="d-block d-md-none bg-position" src="{{ asset('imgs/bg_skill_mobile.svg') }}" alt="" width="100%">
     <div class="container content-position">
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">

@@ -1,5 +1,5 @@
 <section id="banner">
-    <img class="img-size d-none d-md-block" src="{{ asset('/imgs/bg.svg') }}" alt="" width="100%">
+    <img class="img-size d-none d-md-block" src="{{ asset('/imgs/bg.png') }}" alt="" width="100%">
     <div class="container-fluid bg01">
         <div class="row justify-content-center qoute-position">
             <div class="col-12 text-center">
