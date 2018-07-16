@@ -48,8 +48,7 @@
     padding-left: 15px;
     top: -5px;
     background-color: #755C3B;
-    border: 1px solid #755C3B;
-    animation: leftToRight 2s; }
+    border: 1px solid #755C3B; }
   #skills .percent-skill {
     display: inline-block;
     position: absolute;

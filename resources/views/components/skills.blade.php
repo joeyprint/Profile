@@ -20,31 +20,31 @@
             </div>
             <div class="row skill-bar-section">
                 <div class="col-10 col-md-5 bg-skill-bar no-padding">
-                    <p class="skill-text ps">Photoshop</p>
+                    <p class="skill-text ps" data-aos="fadeLeftToRight" data-aos-offset="-200" data-aos-once="true">Photoshop</p>
                     <p class="percent-skill">75 %</p>
                 </div>
             </div>
             <div class="row skill-bar-section">
                 <div class="col-10 col-md-5 bg-skill-bar no-padding">
-                    <p class="skill-text ai">Illustrator</p>
+                    <p class="skill-text ai" data-aos="fadeLeftToRight" data-aos-offset="-200" data-aos-once="true">Illustrator</p>
                     <p class="percent-skill">65 %</p>
                 </div>
             </div>
             <div class="row skill-bar-section">
                 <div class="col-10 col-md-5 bg-skill-bar no-padding">
-                    <p class="skill-text id">Indesign</p>
+                    <p class="skill-text id" data-aos="fadeLeftToRight" data-aos-offset="-200" data-aos-once="true">Indesign</p>
                     <p class="percent-skill">60 %</p>
                 </div>
             </div>
             <div class="row skill-bar-section">
                 <div class="col-10 col-md-5 bg-skill-bar no-padding">
-                    <p class="skill-text xd">Experience Design</p>
+                    <p class="skill-text xd" data-aos="fadeLeftToRight" data-aos-offset="-200" data-aos-once="true">Experience Design</p>
                     <p class="percent-skill">85 %</p>
                 </div>
             </div>
             <div class="row skill-bar-section">
                 <div class="col-10 col-md-5 bg-skill-bar no-padding">
-                    <p class="skill-text sketch">Sketch</p>
+                    <p class="skill-text sketch" data-aos="fadeLeftToRight" data-aos-offset="-200" data-aos-once="true">Sketch</p>
                     <p class="percent-skill">50 %</p>
                 </div>
             </div>
@@ -67,19 +67,19 @@
             </div>
             <div class="row skill-bar-section">
                 <div class="col-10 col-md-5 bg-skill-bar no-padding">
-                    <p class="skill-text html">HTML / CSS / jQuery</p>
+                    <p class="skill-text html" data-aos="fadeLeftToRight" data-aos-offset="-200" data-aos-once="true">HTML / CSS / jQuery</p>
                     <p class="percent-skill">80 %</p>
                 </div>
             </div>
             <div class="row skill-bar-section">
                 <div class="col-10 col-md-5 bg-skill-bar no-padding">
-                    <p class="skill-text react">React</p>
+                    <p class="skill-text react" data-aos="fadeLeftToRight" data-aos-offset="-200" data-aos-once="true">React</p>
                     <p class="percent-skill">45 %</p>
                 </div>
             </div>
             <div class="row skill-bar-section">
                 <div class="col-10 col-md-5 bg-skill-bar no-padding">
-                    <p class="skill-text php">php / Laravel</p>
+                    <p class="skill-text php" data-aos="fadeLeftToRight" data-aos-offset="-200" data-aos-once="true">php / Laravel</p>
                     <p class="percent-skill">65 %</p>
                 </div>
             </div>

@@ -134,6 +134,9 @@ a.sf-back-to-top.active {
   color: #fff;
   text-decoration: none; }
 
+[data-aos="fadeLeftToRight"].aos-animate {
+  animation: leftToRight 2s; }
+
 @keyframes leftToRight {
   from {
     width: 20%; }
