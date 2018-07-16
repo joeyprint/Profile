@@ -9,5 +9,11 @@
                 <p class="qoute-down no-margin">MAKE ME TO BE GOOD PRESENT AND FUTURE</p>
             </div>
         </div>
+        <div class="row justify-content-center">
+            <div class="scroll-down text-center">
+                <img src="{{ asset('/imgs/angle-down-solid.svg') }}" alt="" width="100%">
+                <p class="scroll-text">SCROLL DOWN</p>
+            </div>
+        </div>
     </div>
 </section>

@@ -28,6 +28,14 @@
     font-size: 10px;
     letter-spacing: 1px;
     line-height: 1; }
+  #banner .scroll-down {
+    position: absolute;
+    bottom: 10vh; }
+    #banner .scroll-down img {
+      width: 15px;
+      animation: bounceUpDown 1s infinite; }
+    #banner .scroll-down .scroll-text {
+      font-size: 10px; }
   @media (min-width: 768px) {
     #banner {
       margin-top: 0px; }
@@ -41,13 +49,16 @@
       #banner .bg01 {
         background-image: none;
         height: auto; }
-      #banner .qoute-position {
-        top: 20%; }
       #banner .qoute-up {
         font-size: 30px;
         letter-spacing: 5px; }
       #banner .qoute-down {
-        font-size: 11px; } }
+        font-size: 11px; }
+      #banner .scroll-down.scroll-text {
+        font-size: 12px; } }
+  @media only screen and (device-width: 768px) and (device-height: 1024px) {
+    #banner .scroll-down.scroll-text {
+      font-size: 12px; } }
   @media (min-width: 992px) {
     #banner .qoute-position {
       top: 45%; }
@@ -55,7 +66,11 @@
       font-size: 50px;
       letter-spacing: 5px; }
     #banner .qoute-down {
-      font-size: 15px; } }
+      font-size: 15px; }
+    #banner .scroll-down {
+      bottom: 15vh; }
+      #banner .scroll-down .scroll-text {
+        font-size: 15px; } }
   @media only screen and (device-width: 1024px) and (device-height: 1366px) {
     #banner .qoute-position {
       top: 20%; }

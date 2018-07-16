@@ -38,6 +38,20 @@
         line-height: 1;
     }
 
+    .scroll-down {
+        position: absolute;
+        bottom: 10vh;
+        
+        img {
+            width: 15px;
+            animation: bounceUpDown 1s infinite;
+        }
+
+        .scroll-text {
+            font-size: 10px;
+        }
+    }
+
     @media (min-width: 768px) {
         margin-top: 0px;
         
@@ -55,10 +69,6 @@
             height: auto;
         }
 
-        .qoute-position {
-            top: 20%;
-        }
-
         .qoute-up {
             font-size: 30px;
             letter-spacing: 5px;
@@ -67,10 +77,16 @@
         .qoute-down {
             font-size: 11px;
         }
+
+        .scroll-down.scroll-text {
+            font-size: 12px;
+        }
     }
 
     @media only screen and (device-width: 768px) and (device-height: 1024px) {
-    
+        .scroll-down.scroll-text {
+            font-size: 12px;
+        }
     }
 
     @media (min-width: 992px) {
@@ -85,6 +101,14 @@
 
         .qoute-down {
             font-size: 15px;
+        }
+
+        .scroll-down {
+            bottom: 15vh;
+
+            .scroll-text {
+                font-size: 15px;
+            }
         }
     }
 
