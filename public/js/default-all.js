@@ -8,7 +8,7 @@ $(document).ready(function () {
         console.log(nav);
 
         $('html, body').animate({
-            scrollTop: $("#" + nav).offset().top
+            scrollTop: $("#" + nav).offset().top - 40
         }, 1500);
 
         $('.nav-link').removeClass('active');
@@ -28,11 +28,11 @@ $(document).ready(function () {
             $(".nav-link").removeClass('active');
             $("a[href='#profile']").addClass('active');
         }
-        if($(window).scrollTop() + 100 >= $('#skills').offset().top) {
+        if($(window).scrollTop() + 150 >= $('#skills').offset().top) {
             $(".nav-link").removeClass('active');
             $("a[href='#skills']").addClass('active');
         }
-        if($(window).scrollTop() + 100 >= $('#blog').offset().top) {
+        if($(window).scrollTop() + 250 >= $('#blog').offset().top) {
             $(".nav-link").removeClass('active');
             $("a[href='#blog']").addClass('active');
         }

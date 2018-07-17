@@ -14,7 +14,7 @@
                 <img class="image-blog" src="{{ $blog->thumbnail }}" alt="" width="100%">
             </div>
         </div>
-        <div class="row justify-content-center margin-content align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">
+        <div class="row justify-content-center margin-content align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="-100">
             <div class="col-12 col-md-6">
                 <div class="row justify-content-center">
                     <div class="col-11">
