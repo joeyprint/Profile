@@ -3,11 +3,9 @@
   z-index: 1;
   overflow: hidden;
   color: #303030;
-  -webkit-filter: sepia(20%);
-          filter: sepia(20%);
   margin-top: 50px; }
   #banner .bg01 {
-    background-image: url("/imgs/bg.jpg");
+    background-image: url("/imgs/bg_mobile.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
